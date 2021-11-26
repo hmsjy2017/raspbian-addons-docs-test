@@ -1,17 +1,8 @@
-# Welcome to MkDocs
+# Home
+Raspbian Addons is an APT repository for Raspberry Pies, containing open-source software not in the Pi Foundation's repositories.
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+If you find the project helpful, please consider leaving a star on our [main repository](https://github.com/raspbian-addons/raspbian-addons/)!
 
-## Commands
+Website: https://raspbian-addons.org
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Docs: https://docs.raspbian-addons.org
