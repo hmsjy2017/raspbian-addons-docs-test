@@ -1,0 +1,1216 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="icon" href="https://cdn.jsdelivr.net/gh/raspbian-addons/raspbian-addons@master/icons/logo-condensed-nosquare.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.3.6">
+    
+    
+      
+        <title>Package List - Raspbian Addons Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.a57b2b03.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.3f5d1f46.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    <script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#package-list" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Raspbian Addons Docs" class="md-header__button md-logo" aria-label="Raspbian Addons Docs" data-md-component="logo">
+      
+  <img src="https://cdn.jsdelivr.net/gh/raspbian-addons/raspbian-addons@master/icons/logo-condensed-nosquare.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Raspbian Addons Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Package List
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Raspbian Addons Docs" class="md-nav__button md-logo" aria-label="Raspbian Addons Docs" data-md-component="logo">
+      
+  <img src="https://cdn.jsdelivr.net/gh/raspbian-addons/raspbian-addons@master/icons/logo-condensed-nosquare.png" alt="logo">
+
+    </a>
+    Raspbian Addons Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Package List
+      </a>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          About
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="About" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          About
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/how-does-it-work/" class="md-nav__link">
+        How does it work?
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/repository-keys/" class="md-nav__link">
+        Secret and Public Keys
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/repository-mirrors/" class="md-nav__link">
+        Repository Mirrors
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/what-is-it/" class="md-nav__link">
+        What is Raspbian Addons?
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Troubleshooting
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Troubleshooting" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Troubleshooting
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../troubleshooting/common-issues/" class="md-nav__link">
+        Common Issues
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="package-list">Package List</h1>
+<p>This area contains a description of each application in the repository.</p>
+<p>The entire package archive can be found <a href="https://apt.raspbian-addons.org/debian/pool/">here</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Package Name</th>
+<th>Package Description</th>
+<th>Project Homepage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>adoptopenjdk</td>
+<td>Prebuilt OpenJDK binaries</td>
+<td>https://adoptopenjdk.net/</td>
+</tr>
+<tr>
+<td>alacritty</td>
+<td>Cross-platform OpenGL terminal emulator</td>
+<td>https://github.com/alacritty/alacritty</td>
+</tr>
+<tr>
+<td>albert</td>
+<td>A fast and flexible keyboard launcher</td>
+<td>https://github.com/albertlauncher/albert</td>
+</tr>
+<tr>
+<td>ali</td>
+<td>Generate HTTP load and plot the results in real-time</td>
+<td>https://github.com/nakabonne/ali</td>
+</tr>
+<tr>
+<td>amazon-corretto</td>
+<td>No-cost, multiplatform, production-ready distribution of the Java Development Kit.</td>
+<td>https://corretto.aws</td>
+</tr>
+<tr>
+<td>amiberry</td>
+<td>Optimized Amiga emulator for the Raspberry Pi and other ARM boards</td>
+<td>https://amiberry.com</td>
+</tr>
+<tr>
+<td>appimagelauncher</td>
+<td>Helper application for running and integrating AppImages</td>
+<td>http://github.com/TheAssassin/AppImageLauncher</td>
+</tr>
+<tr>
+<td>archivebox</td>
+<td>Open-source self hosted web archiving.</td>
+<td>https://github.com/ArchiveBox/ArchiveBox</td>
+</tr>
+<tr>
+<td>balena-etcher-electron</td>
+<td>Flash OS images to SD card and USB drives safely and easily.</td>
+<td>https://github.com/balena-io/etcher</td>
+</tr>
+<tr>
+<td>bat</td>
+<td>a cat clone with wings.</td>
+<td>https://github.com/sharkdp/bat</td>
+</tr>
+<tr>
+<td>bleachbit</td>
+<td>Clean your system and free disk space.</td>
+<td>https://bleachbit.org</td>
+</tr>
+<tr>
+<td>blockbench</td>
+<td>Free modern model editor for low-poly and boxy models with pixel art textures.</td>
+<td>https://github.com/JannisX11/blockbench</td>
+</tr>
+<tr>
+<td>bashtop</td>
+<td>Linux command-line resource manager.</td>
+<td>https://github.com/aristocratos/bashtop</td>
+</tr>
+<tr>
+<td>blockpi</td>
+<td>visual programming editor for Raspberry Pi</td>
+<td>https://github.com/alienzhangyw/BlockPi</td>
+</tr>
+<tr>
+<td>box64</td>
+<td>Linux Userspace x86_64 Emulator with a twist, targeted at ARM64 Linux devices</td>
+<td>https://github.com/ptitSeb/box64</td>
+</tr>
+<tr>
+<td>box86</td>
+<td>Linux Userspace x86 emulator with a twist.</td>
+<td>https://github.com/ptitSeb/box86</td>
+</tr>
+<tr>
+<td>bpytop</td>
+<td>Linux resource monitor written in Python.</td>
+<td>https://github.com/aristocratos/bpytop</td>
+</tr>
+<tr>
+<td>browsh</td>
+<td>Fully-modern text-based web browser</td>
+<td>https://github.com/browsh-org/browsh</td>
+</tr>
+<tr>
+<td>bulky</td>
+<td>Bulk Renamer</td>
+<td>https://github.com/linuxmint/bulky</td>
+</tr>
+<tr>
+<td>caddy</td>
+<td>Fast multi-platform web server with https</td>
+<td>https://github.com/caddyserver/caddy</td>
+</tr>
+<tr>
+<td>cbonsai</td>
+<td>grow bonsai trees in your terminal</td>
+<td>https://gitlab.com/jallbrit/cbonsai</td>
+</tr>
+<tr>
+<td>cfetch</td>
+<td>simple system information tool for linux.</td>
+<td>https://github.com/cliegargo/cfetch</td>
+</tr>
+<tr>
+<td>cherrytree</td>
+<td>Feature rich note-taking application</td>
+<td>https://github.com/giuspen/cherrytree</td>
+</tr>
+<tr>
+<td>clamtk</td>
+<td>ondemand virus scanner for Linux</td>
+<td>https://github.com/dave-theunsub/clamtk</td>
+</tr>
+<tr>
+<td>clementine</td>
+<td>modern music player and library organizer for Linux</td>
+<td>https://github.com/clementine-player/Clementine</td>
+</tr>
+<tr>
+<td>cloudflared</td>
+<td>Argo Tunnel client</td>
+<td>https://github.com/cloudflare/cloudflared</td>
+</tr>
+<tr>
+<td>code-server</td>
+<td>VS Code in the browser</td>
+<td>https://github.com/cdr/code-server</td>
+</tr>
+<tr>
+<td>codium</td>
+<td>binary releases of VSCode without telemetry and tracking</td>
+<td>https://github.com/VSCodium/vscodium</td>
+</tr>
+<tr>
+<td>foliate</td>
+<td>modern GTK ebook reader</td>
+<td>https://github.com/johnfactotum/foliate</td>
+</tr>
+<tr>
+<td>conky-manager</td>
+<td>manage all your Conky theme</td>
+<td>https://github.com/teejee2008/conky-manager</td>
+</tr>
+<tr>
+<td>croc</td>
+<td>easily and securely send things from one computer to another</td>
+<td>https://github.com/schollz/croc</td>
+</tr>
+<tr>
+<td>deskreen</td>
+<td>turn any device with a web browser into a second screen</td>
+<td>https://github.com/pavlobu/deskreen</td>
+</tr>
+<tr>
+<td>dino</td>
+<td>modern gtk-based XMPP client</td>
+<td>https://github.com/dino/dino</td>
+</tr>
+<tr>
+<td>docker-ctop</td>
+<td>top-like interface for container metrics</td>
+<td>https://github.com/bcicen/ctop</td>
+</tr>
+<tr>
+<td>drawing</td>
+<td>simple image editor for Linux</td>
+<td>https://github.com/maoschanz/drawing</td>
+</tr>
+<tr>
+<td>duckstation</td>
+<td>PlayStation 1 emulator</td>
+<td>https://github.com/stenzek/duckstation</td>
+</tr>
+<tr>
+<td>duf</td>
+<td>Disk usage monitoring utility</td>
+<td>https://github.com/muesli/duf</td>
+</tr>
+<tr>
+<td>elasticsearch</td>
+<td>free and open search engine</td>
+<td>https://github.com/elastic/elasticsearch</td>
+</tr>
+<tr>
+<td>electron-fiddle</td>
+<td>Create and play with Electron experiments</td>
+<td>https://github.com/electron/fiddle</td>
+</tr>
+<tr>
+<td>fancy-cursor-themes</td>
+<td>Some extra cursor themes for Linux distributions</td>
+<td>https://github.com/ryanfortner/cursor-themes</td>
+</tr>
+<tr>
+<td>figma-linux</td>
+<td>interface design tool based in the browser</td>
+<td>https://github.com/Figma-Linux/figma-linux</td>
+</tr>
+<tr>
+<td>firefox (currently broken)</td>
+<td>popular open-source web browser backed by Mozilla</td>
+<td>https://www.mozilla.org/en-US/firefox/new/</td>
+</tr>
+<tr>
+<td>flameshot</td>
+<td>Powerful yet simple screenshot software</td>
+<td>https://github.com/flameshot-org/flameshot</td>
+</tr>
+<tr>
+<td>fonts-noto-color-emoji</td>
+<td>color emoji font</td>
+<td>none</td>
+</tr>
+<tr>
+<td>fonts-twemoji-svginot</td>
+<td>emoji font</td>
+<td>none</td>
+</tr>
+<tr>
+<td>freecad-buster</td>
+<td>free and open source parametric modeler (debian buster version)</td>
+<td>https://github.com/FreeCAD/FreeCAD</td>
+</tr>
+<tr>
+<td>freetube</td>
+<td>Private YouTube client</td>
+<td>https://freetubeapp.io/</td>
+</tr>
+<tr>
+<td>fzf</td>
+<td>command-line fuzzy finder</td>
+<td>https://github.com/junegunn/fzf</td>
+</tr>
+<tr>
+<td>gh</td>
+<td>GitHub's official command line tool</td>
+<td>https://github.com/cli/cli</td>
+</tr>
+<tr>
+<td>gitea</td>
+<td>Painless self-hosted Git solution</td>
+<td>https://github.com/go-gitea/gitea</td>
+</tr>
+<tr>
+<td>glab</td>
+<td>open-source GitLab command-line tool</td>
+<td>https://github.com/profclems/glab</td>
+</tr>
+<tr>
+<td>glmark2</td>
+<td>openGL 2.0 and ES 2.0 benchmark tool</td>
+<td>https://github.com/glmark2/glmark2</td>
+</tr>
+<tr>
+<td>goreleaser</td>
+<td>Deliver Go binaries as fast as possible</td>
+<td>https://github.com/goreleaser/goreleaser</td>
+</tr>
+<tr>
+<td>hyper</td>
+<td>a terminal built on web technologies.</td>
+<td>https://github.com/vercel/hyper</td>
+</tr>
+<tr>
+<td>hypnotix</td>
+<td>an M3U IPTV player</td>
+<td>https://github.com/linuxmint/hypnotix</td>
+</tr>
+<tr>
+<td>influxdb</td>
+<td>Scalable datastore for metrics, events, and real-time analytics</td>
+<td>https://github.com/influxdata/influxdb</td>
+</tr>
+<tr>
+<td>v2raya</td>
+<td>A Linux web GUI client of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel</td>
+<td>https://github.com/v2rayA/v2rayA</td>
+</tr>
+<tr>
+<td>ipscan</td>
+<td>fast and friendly network scanner</td>
+<td>https://github.com/angryip/ipscan</td>
+</tr>
+<tr>
+<td>ish</td>
+<td>A simple shell written in C</td>
+<td>https://github.com/Itai-Nelken/ish</td>
+</tr>
+<tr>
+<td>kdiskmark</td>
+<td>simple disk benchmarking tool</td>
+<td>https://github.com/JonMagon/KDiskMark</td>
+</tr>
+<tr>
+<td>keepassx</td>
+<td>cross-platform password safe</td>
+<td>https://github.com/keepassx/keepassx</td>
+</tr>
+<tr>
+<td>koreader</td>
+<td>Ebook reader application supporting many different ebook formats</td>
+<td>https://github.com/koreader/koreader</td>
+</tr>
+<tr>
+<td>libhalf-life</td>
+<td>runtime files and desktop entry for running half-life on a raspberry pi. needs full data files to run</td>
+<td>https://github.com/jmcerrejon/PiKISS/blob/master/scripts/games/half-life.sh</td>
+</tr>
+<tr>
+<td>lightpad</td>
+<td>Lightweight, simple, and powerful application launcher.</td>
+<td>https://github.com/libredeb/lightpad</td>
+</tr>
+<tr>
+<td>linuxcnc-uspace</td>
+<td>LinuxCNC controls CNC machines. It can drive milling machines, lathes, 3d printers, laser cutters, plasma cutters, robot arms, hexapods, and more.</td>
+<td>https://github.com/LinuxCNC/linuxcnc</td>
+</tr>
+<tr>
+<td>log2ram</td>
+<td>put log in a ram folder</td>
+<td>https://github.com/azlux/log2ram</td>
+</tr>
+<tr>
+<td>logo-ls</td>
+<td>modern ls command alternative written in Go</td>
+<td>https://github.com/Yash-Handa/logo-ls</td>
+</tr>
+<tr>
+<td>lutris</td>
+<td>Game launcher: desktop client</td>
+<td>https://github.com/lutris/lutris</td>
+</tr>
+<tr>
+<td>lx-music-desktop</td>
+<td>Music player made with Electron</td>
+<td>https://github.com/lyswhut/lx-music-desktop</td>
+</tr>
+<tr>
+<td>macintosh.js</td>
+<td>Virtual macintosh running System 8 in electron</td>
+<td>https://github.com/felixrieseberg/macintosh.js/</td>
+</tr>
+<tr>
+<td>makedeb</td>
+<td>modern packaging tool for Debian archives</td>
+<td>https://github.com/makedeb/makedeb</td>
+</tr>
+<tr>
+<td>min</td>
+<td>Fast, minimal, and private web browser</td>
+<td>https://github.com/minbrowser/min</td>
+</tr>
+<tr>
+<td>minikube</td>
+<td>Run Kubernetes locally</td>
+<td>https://github.com/kubernetes/minikube</td>
+</tr>
+<tr>
+<td>msopenjdk-16</td>
+<td>Microsoft's build of OpenJDK</td>
+<td>https://www.microsoft.com/openjdk</td>
+</tr>
+<tr>
+<td>musikcube</td>
+<td>a cross-platform, terminal-based music player, audio engine, metadata indexer, and server in c++</td>
+<td>https://github.com/clangen/musikcube</td>
+</tr>
+<tr>
+<td>n</td>
+<td>Node version management</td>
+<td>https://github.com/tj/n</td>
+</tr>
+<tr>
+<td>nomacs</td>
+<td>Free image viewer</td>
+<td>https://github.com/nomacs/nomacs</td>
+</tr>
+<tr>
+<td>notepanda</td>
+<td>A simple cross-platform notepad.</td>
+<td>https://github.com/ChungZH/notepanda</td>
+</tr>
+<tr>
+<td>notion-app</td>
+<td>an enhancer/customiser for the all-in-one productivity workspace notion.so (app)</td>
+<td>https://github.com/notion-enhancer/desktop</td>
+</tr>
+<tr>
+<td>onedriver</td>
+<td>native Linux filesystem for Microsoft OneDrive</td>
+<td>https://github.com/jstaf/onedriver</td>
+</tr>
+<tr>
+<td>opencv</td>
+<td>open-source computer vision library</td>
+<td>https://github.com/opencv/opencv</td>
+</tr>
+<tr>
+<td>openrazer</td>
+<td>Collection of Linux drivers for Razer devices</td>
+<td>https://github.com/openrazer/openrazer</td>
+</tr>
+<tr>
+<td>openresty</td>
+<td>High Performance Web Platform Based on Nginx and LuaJIT</td>
+<td>https://github.com/openresty/openresty</td>
+</tr>
+<tr>
+<td>panther-launcher</td>
+<td>fork of Slingshot Launcher, simple program launcher</td>
+<td>https://github.com/rastersoft/panther_launcher</td>
+</tr>
+<tr>
+<td>papirus-icon-theme</td>
+<td>Free and open-source icon theme</td>
+<td>https://github.com/PapirusDevelopmentTeam/papirus-icon-theme</td>
+</tr>
+<tr>
+<td>pbgopy</td>
+<td>Copy and paste between devices</td>
+<td>https://github.com/nakabonne/pbgopy</td>
+</tr>
+<tr>
+<td>persepolis</td>
+<td>Download Manager with a GUI for aria2</td>
+<td>https://github.com/persepolisdm/persepolis</td>
+</tr>
+<tr>
+<td>piserver</td>
+<td>Raspberry pi Server Wizard for serving a Raspbian instance to network-booting pies</td>
+<td>https://github.com/raspberrypi/piserver</td>
+</tr>
+<tr>
+<td>prusa-slicer</td>
+<td>gcode generator for 3d printers</td>
+<td>https://github.com/prusa3d/PrusaSlicer</td>
+</tr>
+<tr>
+<td>python3-halo-weather</td>
+<td>Weather app for Linux desktops</td>
+<td>https://github.com/cijo7/Halo</td>
+</tr>
+<tr>
+<td>qemu</td>
+<td>open-source machine virtualizer and emulator</td>
+<td>https://github.com/qemu/qemu</td>
+</tr>
+<tr>
+<td>qt5-opengl-dev</td>
+<td>qt5 with desktop opengl on a raspberry pi</td>
+<td>https://github.com/koendv/qt5-opengl-raspberrypi</td>
+</tr>
+<tr>
+<td>qt5-opengl-qtcreator</td>
+<td>qt creator with opengl support</td>
+<td>https://github.com/koendv/qt5-opengl-raspberrypi</td>
+</tr>
+<tr>
+<td>qv2ray</td>
+<td>Cross-platform V2Ray client using Qt framework.</td>
+<td>https://github.com/Qv2ray/Qv2ray</td>
+</tr>
+<tr>
+<td>razergenie</td>
+<td>GUI for configuring your razer devices</td>
+<td>https://github.com/z3ntu/RazerGenie</td>
+</tr>
+<tr>
+<td>rclone</td>
+<td>rsync for cloud storage</td>
+<td>https://github.com/rclone/rclone</td>
+</tr>
+<tr>
+<td>remarkable</td>
+<td>Cross-platform markdown editor</td>
+<td>http://remarkableapp.github.io/</td>
+</tr>
+<tr>
+<td>rpi-imager</td>
+<td>Raspberry Pi imaging utility</td>
+<td>https://github.com/raspberrypi/rpi-imager</td>
+</tr>
+<tr>
+<td>shellcheck</td>
+<td>static analytics tool for shell scripts</td>
+<td>https://github.com/koalaman/shellcheck</td>
+</tr>
+<tr>
+<td>simplenote</td>
+<td>Official Simplenote desktop app</td>
+<td>https://github.com/Automattic/simplenote-electron</td>
+</tr>
+<tr>
+<td>softethervpn</td>
+<td>cross-platform multi-protocol vpn</td>
+<td>https://github.com/SoftEtherVPN/SoftEtherVPN</td>
+</tr>
+<tr>
+<td>sonic-pi</td>
+<td>A new kind of musical instrument</td>
+<td>https://github.com/sonic-pi-net/sonic-pi</td>
+</tr>
+<tr>
+<td>source-han-serif-cn</td>
+<td>Source Han Serif is a set of OpenType/CFF Pan-CJK fonts.</td>
+<td>https://github.com/adobe-fonts/source-han-serif</td>
+</tr>
+<tr>
+<td>stacer</td>
+<td>Linux System optimizer and monitor</td>
+<td>https://github.com/oguzhaninan/Stacer</td>
+</tr>
+<tr>
+<td>stackedit-nativefier</td>
+<td>stackedit nativefier webapp</td>
+<td>https://github.com/Itai-Nelken/Nativefier-WebApps</td>
+</tr>
+<tr>
+<td>sticky</td>
+<td>a sticky notes app for the linux desktop</td>
+<td>https://github.com/linuxmint/sticky</td>
+</tr>
+<tr>
+<td>stl-thumb</td>
+<td>thumbnail generator for stl files</td>
+<td>https://github.com/unlimitedbacon/stl-thumb</td>
+</tr>
+<tr>
+<td>stl-thumb-kde</td>
+<td>thumbnail generator for stl files (kde version)</td>
+<td>https://github.com/unlimitedbacon/stl-thumb</td>
+</tr>
+<tr>
+<td>swiftlang</td>
+<td>The Swift programming language</td>
+<td>https://github.com/apple/swift</td>
+</tr>
+<tr>
+<td>syncthing</td>
+<td>open-source continuous file synchronization</td>
+<td>https://github.com/syncthing/syncthing</td>
+</tr>
+<tr>
+<td>sysbench</td>
+<td>Scriptable system benchmark tool</td>
+<td>https://github.com/akopytov/sysbench</td>
+</tr>
+<tr>
+<td>sysmontask</td>
+<td>Linux system monitor inspired by Windows Task Manager</td>
+<td>https://github.com/KrispyCamel4u/SysMonTask</td>
+</tr>
+<tr>
+<td>tabby-terminal</td>
+<td>A terminal for a more modern age</td>
+<td>https://github.com/Eugeny/tabby</td>
+</tr>
+<tr>
+<td>teams-for-linux</td>
+<td>Unofficial Linux client for Microsoft Teams</td>
+<td>https://github.com/IsmaelMartinez/teams-for-linux</td>
+</tr>
+<tr>
+<td>thelounge</td>
+<td>self-hosted web irc client</td>
+<td>https://github.com/thelounge/thelounge</td>
+</tr>
+<tr>
+<td>theme-sh</td>
+<td>A script which lets you set your terminal theme</td>
+<td>https://github.com/lemnos/theme.sh</td>
+</tr>
+<tr>
+<td>thunar-sendto-clamtk</td>
+<td>thunar-sendto-clamtk is a simple plugin to allow a right-click, context menu scan of files or folders in Thunar, XFCE's file manager.</td>
+<td>https://github.com/dave-theunsub/thunar-sendto-clamtk</td>
+</tr>
+<tr>
+<td>tic-80</td>
+<td>free and open-source fantasy computer</td>
+<td>https://github.com/nesbox/TIC-80</td>
+</tr>
+<tr>
+<td>timeshift</td>
+<td>System restore tool for Linux</td>
+<td>https://github.com/teejee2008/timeshift</td>
+</tr>
+<tr>
+<td>tldr-py</td>
+<td>python client for tldr-py</td>
+<td>https://github.com/lord63/tldr.py</td>
+</tr>
+<tr>
+<td>touche</td>
+<td>Desktop application to configure Touchegg</td>
+<td>https://github.com/JoseExposito/touche</td>
+</tr>
+<tr>
+<td>tt</td>
+<td>Terminal-based typing test</td>
+<td>https://github.com/lemnos/tt</td>
+</tr>
+<tr>
+<td>turbowarp-desktop</td>
+<td>TurboWarp as a desktop app</td>
+<td>https://github.com/TurboWarp/desktop</td>
+</tr>
+<tr>
+<td>tut</td>
+<td>TUI for Mastodon with vim inspired keys</td>
+<td>https://github.com/RasmusLindroth/tut</td>
+</tr>
+<tr>
+<td>ulauncher</td>
+<td>Linux application launcher</td>
+<td>https://github.com/Ulauncher/Ulauncher</td>
+</tr>
+<tr>
+<td>ungoogled-chromium</td>
+<td>google chromium, sans integration with Google</td>
+<td>https://github.com/Eloston/ungoogled-chromium</td>
+</tr>
+<tr>
+<td>usbimager</td>
+<td>simple GUI app for writing images to drives</td>
+<td>https://gitlab.com/bztsrc/usbimager</td>
+</tr>
+<tr>
+<td>usermin</td>
+<td>-</td>
+<td>https://github.com/webmin/usermin</td>
+</tr>
+<tr>
+<td>vkmark</td>
+<td>Vulkan benchmark utility</td>
+<td>https://github.com/vkmark/vkmark</td>
+</tr>
+<tr>
+<td>warpinator</td>
+<td>Share files across the LAN</td>
+<td>https://github.com/linuxmint/warpinator</td>
+</tr>
+<tr>
+<td>web-renderer</td>
+<td>qt-based minimal web renderer</td>
+<td>https://github.com/pi-top/web-renderer</td>
+</tr>
+<tr>
+<td>webcord</td>
+<td>Privacy-focused Discord web client</td>
+<td>https://github.com/SpacingBat3/WebCord</td>
+</tr>
+<tr>
+<td>webapp-manager</td>
+<td>Run websites as if they were apps.</td>
+<td>https://github.com/linuxmint/webapp-manager</td>
+</tr>
+<tr>
+<td>webmin</td>
+<td>Powerful and flexible web-based system monitoring solution</td>
+<td>https://github.com/webmin/webmin</td>
+</tr>
+<tr>
+<td>webtorrent-desktop</td>
+<td>web torrent streaming client</td>
+<td>https://github.com/webtorrent/webtorrent-desktop</td>
+</tr>
+<tr>
+<td>whatsappweb-nativefier</td>
+<td>whatsapp with nativefier</td>
+<td>https://github.com/Itai-Nelken/Nativefier-WebApps</td>
+</tr>
+<tr>
+<td>wifi-ap-sta</td>
+<td>start and stop a wifi access point</td>
+<td>https://github.com/pi-top/Wi-Fi-Access-Point-and-Station-Mode</td>
+</tr>
+<tr>
+<td>windows95</td>
+<td>Windows 95 in Electron</td>
+<td>https://github.com/felixrieseberg/windows95</td>
+</tr>
+<tr>
+<td>worldpainter</td>
+<td>interactive map generator for Minecraft.</td>
+<td>https://github.com/Captain-Chaos/WorldPainter</td>
+</tr>
+<tr>
+<td>xcaddy</td>
+<td>build Caddy with plugins</td>
+<td>https://github.com/caddyserver/xcaddy</td>
+</tr>
+<tr>
+<td>xemu</td>
+<td>Xbox emulator</td>
+<td>https://github.com/mborgerson/xemu</td>
+</tr>
+<tr>
+<td>xournalpp</td>
+<td>Handwriting notetaking application software with PDF annotation support.</td>
+<td>https://github.com/xournalpp/xournalpp</td>
+</tr>
+<tr>
+<td>xpenguins</td>
+<td>Animate penguins in your desktop window</td>
+<td>https://sourceforge.net/projects/xpenguins/</td>
+</tr>
+<tr>
+<td>xsnow</td>
+<td>Let it snow on your desktop</td>
+<td>https://sourceforge.net/projects/xsnow/</td>
+</tr>
+<tr>
+<td>xtensa-esp32-elf</td>
+<td>esp32/esp32s2 gcc cross-compiler for 64-bit raspberry</td>
+<td>https://github.com/koendv/xtensa-esp32-elf-raspberrypi</td>
+</tr>
+<tr>
+<td>yesplaymusic</td>
+<td>Third-party cloud music player</td>
+<td>https://github.com/qier222/YesPlayMusic</td>
+</tr>
+<tr>
+<td>tetris</td>
+<td>classic tetris for the terminal</td>
+<td>https://github.com/k-vernooy/tetris/</td>
+</tr>
+<tr>
+<td>caprine</td>
+<td>unofficial and privacy focused Facebook Messenger app with many useful features.</td>
+<td>https://sindresorhus.com/caprine/</td>
+</tr>
+</tbody>
+</table>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Home
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../about/how-does-it-work/" class="md-footer__link md-footer__link--next" aria-label="Next: How does it work?" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              How does it work?
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        
+          Made with
+          <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+            Material for MkDocs
+          </a>
+        
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.fcfe8b6d.min.js", "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.b1047164.min.js"></script>
+      
+    
+  </body>
+</html>
