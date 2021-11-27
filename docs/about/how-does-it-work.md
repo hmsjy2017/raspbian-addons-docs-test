@@ -1,4 +1,4 @@
-### How does it work?
+# How does it work?
 
 Here is how APT repositories are created and pushed to users.
 
